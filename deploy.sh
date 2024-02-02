@@ -4,7 +4,7 @@
 ./build.sh
 
 #docker login
-docker login --username $DOCKERHUB_USERNAME --password dckr_pat_b1dJvrjmyy7YEzgsCyUmNDPh3-k
+docker login --username $DOCKERHUB_USERNAME --password (dockerhub token)
 
 #push  
 if [ "$GIT_BRANCH" == "origin/dev" ]; then
